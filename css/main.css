@@ -7212,29 +7212,9 @@ body .type-1-animation {
     animation-fill-mode: forwards;
 }
 
-body .type-2-animation {
-    -webkit-animation: type2 5s steps(300, end);
-    animation: type2 5s steps(300, end);
-    animation-fill-mode: forwards;
-}
-
-body .fadeInLeft-1 {
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s
-}
-
-body .fadeInLeft-2 {
-    -webkit-animation-delay: 5.25s;
-    animation-delay: 5.25s
-}
-
-body .fadeInLeft-3 {
-    -webkit-animation-delay: 5.5s;
-    animation-delay: 5.5s
-}
-
 @-webkit-keyframes type1 {
     0% {
+        text-align: center,
         width: 0
     }
     100% {
@@ -7244,26 +7224,7 @@ body .fadeInLeft-3 {
 
 @keyframes type1 {
     0% {
-        width: 0
-    }
-    100% {
-        width: 100%
-    }
-}
-
-@-webkit-keyframes type2 {
-    0%,
-    40% {
-        width: 0
-    }
-    100% {
-        width: 100%
-    }
-}
-
-@keyframes type2 {
-    0%,
-    40% {
+        text-align: center,
         width: 0
     }
     100% {
