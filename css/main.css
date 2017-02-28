@@ -7061,7 +7061,8 @@ body .c-menu__close {
 
 body {
     overflow-x: hidden;
-    font-family: Jura, sans-serif
+    font-family: Jura, sans-serif;
+    margin-bottom: 5em;
 }
 
 body .--hidden {
@@ -7210,6 +7211,51 @@ body .type-1-animation {
     -webkit-animation: type1 4s steps(300, end);
     animation: type1 4s steps(300, end);
     animation-fill-mode: forwards;
+}
+
+body #about-me h2 {
+  font-size: 30px;
+  padding: 80px;
+  text-align: center;
+  margin: 0 5em;
+}
+
+body #about-me img {
+  width: 370px;
+}
+
+body #ucsc span {
+  font-family: 'Open Sans', sans-serif;
+  color: #999;
+}
+
+body #ucsc img {
+  width: 250px;
+}
+
+body #ucsc .col-xs-6 {
+  text-align: center;
+}
+
+body section#leapfrog {
+  background-color: rgba(130, 190, 66, .5);
+}
+
+body #leapfrog h3 {
+  color: #fff;
+}
+
+body #leapfrog span {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
+
+body #leapfrog img {
+  width: 250px;
+}
+
+body #leapfrog .col-xs-6 {
+  text-align: center;
 }
 
 @-webkit-keyframes type1 {
