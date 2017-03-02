@@ -8,7 +8,6 @@
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 .label,
 sub,
 sup {
@@ -193,7 +192,8 @@ sub {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    width: 120%;
 }
 
 svg:not(:root) {
@@ -7069,6 +7069,23 @@ body .--hidden {
     display: none
 }
 
+body h3 {
+    color: #fff;
+}
+
+body strong, span, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body strong {
+    color: #fff;
+}
+
+body strong.project-link {
+    border-bottom: 5px solid;
+    margin: 0 5px;
+}
+
 body #welcome {
     height: 100vh;
     background-image: url(../images/welcome/me-looking-2.jpg);
@@ -7187,26 +7204,6 @@ body #welcome .welcome-text .blinking-cursor {
     font-size: 1em
 }
 
-body #welcome .explore-text {
-    text-align: center;
-    margin-top: 5px
-}
-
-body #welcome .explore-text a {
-    font-size: 2.5vw;
-    border: 1px solid #fff;
-    padding: 3vh 7vw;
-    color: #fff;
-    font-weight: 100;
-    -webkit-transition: .1s ease-in-out;
-    transition: .1s ease-in-out
-}
-
-body #welcome .explore-text a:hover {
-    border: 3px solid #fff;
-    text-decoration: none
-}
-
 body .type-1-animation {
     -webkit-animation: type1 4s steps(300, end);
     animation: type1 4s steps(300, end);
@@ -7241,10 +7238,6 @@ body section#leapfrog {
   background-color: rgba(130, 190, 66, .5);
 }
 
-body #leapfrog h3 {
-  color: #fff;
-}
-
 body #leapfrog span {
   font-family: 'Open Sans', sans-serif;
   color: #555;
@@ -7258,6 +7251,21 @@ body #leapfrog .col-xs-6 {
   text-align: center;
 }
 
+body section#idtech {
+    background-color: rgba(18, 166, 244, .5);
+}
+
+body #idtech .row:first-of-type {
+    margin-top: 60px;
+}
+
+body #idtech .row:last-of-type {
+    margin-bottom: 60px;
+}
+
+body section#message {
+    padding: 0 3em;
+}
 @-webkit-keyframes type1 {
     0% {
         text-align: center,
