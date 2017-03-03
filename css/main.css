@@ -1556,7 +1556,9 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .lead {
@@ -2010,7 +2012,8 @@ pre code {
 }
 
 .col-xs-3 {
-    width: 25%
+    width: 8%;
+    padding: 0 0em;
 }
 
 .col-xs-4 {
@@ -7060,9 +7063,10 @@ body .c-menu__close {
 }
 
 body {
-    overflow-x: hidden;
-    font-family: Jura, sans-serif;
-    margin-bottom: 5em;
+  overflow-x: hidden;
+  font-family: Jura, sans-serif;
+  margin-bottom: 5em;
+  padding: 0 4em;
 }
 
 body .--hidden {
@@ -7075,6 +7079,7 @@ body h3 {
 
 body strong, span, a {
     font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
 }
 
 body strong {
@@ -7180,11 +7185,13 @@ body #welcome .welcome-text h1 {
     overflow: hidden;
     font-weight: 300;
     width: 0;
+    text-align: center;
 }
 
 @media (max-width: 500px) {
   body #welcome .welcome-text h1 {
     font-size: 9vw;
+    text-align: center;
   }
 }
 
@@ -7208,17 +7215,24 @@ body .type-1-animation {
     -webkit-animation: type1 4s steps(300, end);
     animation: type1 4s steps(300, end);
     animation-fill-mode: forwards;
+    text-align: center;
+}
+
+body #about-me {
+  margin: 0 3em;
 }
 
 body #about-me h2 {
   font-size: 30px;
-  padding: 80px;
+  padding: 0;
   text-align: center;
-  margin: 0 5em;
+  margin: 3em 0;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
 
 body #about-me img {
-  width: 370px;
+  width: 32vw;
 }
 
 body #ucsc span {
@@ -7266,13 +7280,32 @@ body #idtech .row:last-of-type {
 body section#message {
     padding: 0 3em;
 }
+
+body #message i {
+  display: inline;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 1em;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 5em;
+  margin: 0 auto;
+}
+
+body #message .container {
+  margin-top: 5em;
+}
+
 @-webkit-keyframes type1 {
     0% {
         text-align: center,
         width: 0
     }
     100% {
-        width: 100%
+        width: 100%,auto,
     }
 }
 
