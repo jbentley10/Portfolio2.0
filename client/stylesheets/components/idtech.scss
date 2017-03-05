@@ -1,0 +1,12 @@
+#idtech {
+    background-color: rgba(18, 166, 244, .5);
+
+    .row {
+      &:first-of-type {
+        margin-top: 60px;
+      }
+      &:last-of-type {
+        margin-bottom: 60px;
+      }
+    }
+}

@@ -1,0 +1,38 @@
+#welcome {
+  height: 100vh;
+  background-image: url('../assets/images/welcome/me-looking-2.jpg');
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  font-family: 'Jura', sans-serif;
+
+  .blinking-cursor {
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    display: inline;
+    font-size: 1em
+  }
+
+  .type-1-animation {
+      -webkit-animation: type1 4s steps(300, end);
+      animation: type1 4s steps(300, end);
+      animation-fill-mode: forwards;
+      text-align: center;
+  }
+
+  .welcome-text {
+    color: #fff;
+    padding: 6%;
+    margin-left: 1%;
+
+    h1 {
+      font-size: 5vw;
+      white-space: nowrap;
+      overflow: hidden;
+      font-weight: 300;
+      width: 0;
+      text-align: center;
+    }
+  }
+}
